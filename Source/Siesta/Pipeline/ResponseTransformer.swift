@@ -15,7 +15,7 @@ import Foundation
     /// `UIImage` on iOS; `NSImage` on macOS.
     public typealias Image = NSImage
 
-#elseif os(iOS) || os(tvOS) || os(watchOS)
+#elseif os(iOS) || os(tvOS) || os(watchOS) || os(visionOS)
     import UIKit
 
     /// A cross-platform alias for the output type of Siesta’s image content transformer.

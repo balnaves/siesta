@@ -9,7 +9,7 @@
 import Foundation
 #if os(macOS) || os(watchOS)
     internal let memoryWarningNotification = NSNotification.Name("Siesta.memoryWarningNotification")
-#elseif os(iOS) || os(tvOS)
+#elseif os(iOS) || os(tvOS) || os(visionOS)
     import UIKit
     #if swift(>=4.2)
         internal let memoryWarningNotification = UIApplication.didReceiveMemoryWarningNotification

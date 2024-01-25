@@ -75,6 +75,6 @@ internal struct WeakRef<T: AnyObject>: Hashable
     internal func hash(into hasher: inout Hasher)
         { hasher.combine(originalHash) }
 
-    internal static func == <T>(lhs: WeakRef<T>, rhs: WeakRef<T>) -> Bool
+    internal static func == <WRT>(lhs: WeakRef<WRT>, rhs: WeakRef<WRT>) -> Bool
         { lhs.originalIdentity == rhs.originalIdentity }
     }

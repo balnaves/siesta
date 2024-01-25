@@ -3,11 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00B394491DC5FD67002CD5B7 /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B394481DC5FD67002CD5B7 /* NetworkActivityIndicator.swift */; };
+		1AE0124E2B6165B700441560 /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA42041C20AFCF0020AC5E /* ProgressTracker.swift */; };
+		1AE0124F2B6165B700441560 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4353511B6AD63C00543843 /* Networking.swift */; };
+		1AE012502B6165B700441560 /* Optional+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34E2C7222BA8650025A77A /* Optional+Siesta.swift */; };
+		1AE012512B6165B700441560 /* ARC+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AB90A1B5B5DD9006A3067 /* ARC+Siesta.swift */; };
+		1AE012522B6165B700441560 /* RequestCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA42021C20AF940020AC5E /* RequestCallbacks.swift */; };
+		1AE012532B6165B700441560 /* ResourceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC0B3721D63880600D25C44 /* ResourceNavigation.swift */; };
+		1AE012542B6165B700441560 /* DebugFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA4BB01B8377B300EFF117 /* DebugFormatting.swift */; };
+		1AE012552B6165B700441560 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAADA6B81B76F6E7009A3EF5 /* Configuration.swift */; };
+		1AE012562B6165B700441560 /* Networking-URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5EC2731B91E39000DC33C8 /* Networking-URLSession.swift */; };
+		1AE012572B6165B700441560 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FE9F31BB9E3EF00B6688A /* Progress.swift */; };
+		1AE012582B6165B700441560 /* Collection+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AB90C1B5C0090006A3067 /* Collection+Siesta.swift */; };
+		1AE012592B6165B700441560 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FBDB01B55BF0E00161A25 /* Logging.swift */; };
+		1AE0125A2B6165B700441560 /* LiveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA573612050FA1A002D7B8B /* LiveRequest.swift */; };
+		1AE0125B2B6165B700441560 /* GCD+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE96F7B1B8ED11400506AE7 /* GCD+Siesta.swift */; };
+		1AE0125C2B6165B700441560 /* Regex+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33142E1B4DBADA00A7A175 /* Regex+Siesta.swift */; };
+		1AE0125D2B6165B700441560 /* ResourceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9F4BDF1B41C9CC00E8966F /* ResourceObserver.swift */; };
+		1AE0125E2B6165B700441560 /* PipelineProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D05C31D57C2B500431980 /* PipelineProcessing.swift */; };
+		1AE0125F2B6165B700441560 /* HardWiredRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA573662050FBEC002D7B8B /* HardWiredRequest.swift */; };
+		1AE012602B6165B700441560 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA336E701B2F6659006F702A /* Service.swift */; };
+		1AE012612B6165B700441560 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA42061C20B0E50020AC5E /* NetworkRequest.swift */; };
+		1AE012622B6165B700441560 /* RequestChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD23421D6105B600848C04 /* RequestChaining.swift */; };
+		1AE012632B6165B700441560 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB48291B5D7B770059C047 /* Request.swift */; };
+		1AE012642B6165B700441560 /* OpenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE0BAF1D02046500607F3E /* OpenEnum.swift */; };
+		1AE012652B6165B700441560 /* URL+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2846491B59EF9F004BD535 /* URL+Siesta.swift */; };
+		1AE012662B6165B700441560 /* WeakCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9F4BDB1B3DFE3700E8966F /* WeakCache.swift */; };
+		1AE012672B6165B700441560 /* RequestCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA42081C20B10F0020AC5E /* RequestCreation.swift */; };
+		1AE012682B6165B700441560 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60F5FB1B30B2F800D76DC6 /* Resource.swift */; };
+		1AE012692B6165B700441560 /* ConfigurationPatternConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AA8141CCAFDD20016DB18 /* ConfigurationPatternConvertible.swift */; };
+		1AE0126A2B6165B700441560 /* ResponseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA33142A1B4DA04900A7A175 /* ResponseTransformer.swift */; };
+		1AE0126B2B6165B700441560 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3C4E1B3DEFE8009CF96C /* RequestError.swift */; };
+		1AE0126C2B6165B700441560 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3C4C1B3DEFC2009CF96C /* Entity.swift */; };
+		1AE0126D2B6165B700441560 /* Siesta-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FBD9A1B55917600161A25 /* Siesta-ObjC.swift */; };
+		1AE0126E2B6165B700441560 /* String+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA99B5C81B38C8E6009C6937 /* String+Siesta.swift */; };
+		1AE0126F2B6165B700441560 /* StandardTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF19BC61F355606000B9734 /* StandardTransformers.swift */; };
+		1AE012702B6165B700441560 /* EntityCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9F7B1E1B8BC3B000A604C3 /* EntityCache.swift */; };
+		1AE012712B6165B700441560 /* PipelineConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE0BAD1D0201F800607F3E /* PipelineConfiguration.swift */; };
+		1AE012722B6165B700441560 /* Ω_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD23451D618CE300848C04 /* Ω_Deprecations.swift */; };
+		1AE012752B6165B700441560 /* Siesta.h in Headers */ = {isa = PBXBuildFile; fileRef = DA336E521B2E6DDB006F702A /* Siesta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F0FAF901D033FCD00CE1B61 /* ResourceStateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC0CE6A1B4A3A9D004FBB4B /* ResourceStateSpec.swift */; };
 		9F0FAF911D033FCD00CE1B61 /* Networking-Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FF1051C0F97F600C98FF1 /* Networking-Alamofire.swift */; };
 		9F0FAF921D033FCD00CE1B61 /* ProgressSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8EF6CF1BC1A917002175EB /* ProgressSpec.swift */; };
@@ -364,6 +402,8 @@
 
 /* Begin PBXFileReference section */
 		00B394481DC5FD67002CD5B7 /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+		1AE0127A2B6165B700441560 /* Siesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Siesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE0127C2B6166FB00441560 /* Info-visionOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Info-visionOS.plist"; path = "Source/Info-visionOS.plist"; sourceTree = SOURCE_ROOT; };
 		574156971D393B11009A2EC8 /* Siesta+ReactiveCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Siesta+ReactiveCocoa.swift"; sourceTree = "<group>"; };
 		9F0FAFAC1D033FCD00CE1B61 /* SiestaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiestaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0FAFAD1D033FCD00CE1B61 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
@@ -451,6 +491,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1AE012732B6165B700441560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F0FAF9D1D033FCD00CE1B61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -617,6 +664,7 @@
 				CDCCAF721E6A31D900860D18 /* Siesta.framework */,
 				CDCCAF7A1E6A31DA00860D18 /* SiestaTests.xctest */,
 				DA5E4B4B22DCE9670059ED10 /* SiestaUI.framework */,
+				1AE0127A2B6165B700441560 /* Siesta.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -654,6 +702,7 @@
 		DA99B5C61B38C356009C6937 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				1AE0127C2B6166FB00441560 /* Info-visionOS.plist */,
 				DA336E541B2E6DDB006F702A /* Info-iOS.plist */,
 				9F2FB5221C28645E0068DFFA /* Info-macOS.plist */,
 				CDCCAF681E6A313800860D18 /* Info-watchOS.plist */,
@@ -771,6 +820,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1AE012742B6165B700441560 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE012752B6165B700441560 /* Siesta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F2FB51B1C28645E0068DFFA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -830,6 +887,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1AE0124C2B6165B700441560 /* Siesta visionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE012772B6165B700441560 /* Build configuration list for PBXNativeTarget "Siesta visionOS" */;
+			buildPhases = (
+				1AE0124D2B6165B700441560 /* Sources */,
+				1AE012732B6165B700441560 /* Frameworks */,
+				1AE012742B6165B700441560 /* Headers */,
+				1AE012762B6165B700441560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siesta visionOS";
+			packageProductDependencies = (
+			);
+			productName = Siesta;
+			productReference = 1AE0127A2B6165B700441560 /* Siesta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9F0FAF8C1D033FCD00CE1B61 /* SiestaTests macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F0FAFA91D033FCD00CE1B61 /* Build configuration list for PBXNativeTarget "SiestaTests macOS" */;
@@ -1138,6 +1215,7 @@
 				DAC0B37D1D651CB500D25C44 /* SiestaUI iOS */,
 				DAC0B3AC1D651CC700D25C44 /* SiestaUI macOS */,
 				DA5E4B3922DCE9670059ED10 /* SiestaUI tvOS */,
+				1AE0124C2B6165B700441560 /* Siesta visionOS */,
 				DA336E581B2E6DDB006F702A /* SiestaTests iOS */,
 				9F0FAF8C1D033FCD00CE1B61 /* SiestaTests macOS */,
 				CDCCAF791E6A31DA00860D18 /* SiestaTests tvOS */,
@@ -1147,6 +1225,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1AE012762B6165B700441560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F0FAFA31D033FCD00CE1B61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1285,6 +1370,50 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1AE0124D2B6165B700441560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE0124E2B6165B700441560 /* ProgressTracker.swift in Sources */,
+				1AE0124F2B6165B700441560 /* Networking.swift in Sources */,
+				1AE012502B6165B700441560 /* Optional+Siesta.swift in Sources */,
+				1AE012512B6165B700441560 /* ARC+Siesta.swift in Sources */,
+				1AE012522B6165B700441560 /* RequestCallbacks.swift in Sources */,
+				1AE012532B6165B700441560 /* ResourceNavigation.swift in Sources */,
+				1AE012542B6165B700441560 /* DebugFormatting.swift in Sources */,
+				1AE012552B6165B700441560 /* Configuration.swift in Sources */,
+				1AE012562B6165B700441560 /* Networking-URLSession.swift in Sources */,
+				1AE012572B6165B700441560 /* Progress.swift in Sources */,
+				1AE012582B6165B700441560 /* Collection+Siesta.swift in Sources */,
+				1AE012592B6165B700441560 /* Logging.swift in Sources */,
+				1AE0125A2B6165B700441560 /* LiveRequest.swift in Sources */,
+				1AE0125B2B6165B700441560 /* GCD+Siesta.swift in Sources */,
+				1AE0125C2B6165B700441560 /* Regex+Siesta.swift in Sources */,
+				1AE0125D2B6165B700441560 /* ResourceObserver.swift in Sources */,
+				1AE0125E2B6165B700441560 /* PipelineProcessing.swift in Sources */,
+				1AE0125F2B6165B700441560 /* HardWiredRequest.swift in Sources */,
+				1AE012602B6165B700441560 /* Service.swift in Sources */,
+				1AE012612B6165B700441560 /* NetworkRequest.swift in Sources */,
+				1AE012622B6165B700441560 /* RequestChaining.swift in Sources */,
+				1AE012632B6165B700441560 /* Request.swift in Sources */,
+				1AE012642B6165B700441560 /* OpenEnum.swift in Sources */,
+				1AE012652B6165B700441560 /* URL+Siesta.swift in Sources */,
+				1AE012662B6165B700441560 /* WeakCache.swift in Sources */,
+				1AE012672B6165B700441560 /* RequestCreation.swift in Sources */,
+				1AE012682B6165B700441560 /* Resource.swift in Sources */,
+				1AE012692B6165B700441560 /* ConfigurationPatternConvertible.swift in Sources */,
+				1AE0126A2B6165B700441560 /* ResponseTransformer.swift in Sources */,
+				1AE0126B2B6165B700441560 /* RequestError.swift in Sources */,
+				1AE0126C2B6165B700441560 /* Entity.swift in Sources */,
+				1AE0126D2B6165B700441560 /* Siesta-ObjC.swift in Sources */,
+				1AE0126E2B6165B700441560 /* String+Siesta.swift in Sources */,
+				1AE0126F2B6165B700441560 /* StandardTransformers.swift in Sources */,
+				1AE012702B6165B700441560 /* EntityCache.swift in Sources */,
+				1AE012712B6165B700441560 /* PipelineConfiguration.swift in Sources */,
+				1AE012722B6165B700441560 /* Ω_Deprecations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F0FAF8F1D033FCD00CE1B61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1635,6 +1764,54 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1AE012782B6165B700441560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-visionOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bustoutsolutions.Siesta;
+				PRODUCT_NAME = Siesta;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		1AE012792B6165B700441560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-visionOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bustoutsolutions.Siesta;
+				PRODUCT_NAME = Siesta;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
 		9F0FAFAA1D033FCD00CE1B61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2228,6 +2405,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1AE012772B6165B700441560 /* Build configuration list for PBXNativeTarget "Siesta visionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE012782B6165B700441560 /* Debug */,
+				1AE012792B6165B700441560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9F0FAFA91D033FCD00CE1B61 /* Build configuration list for PBXNativeTarget "SiestaTests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
